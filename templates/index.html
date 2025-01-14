@@ -6,6 +6,31 @@
   <title>Document</title>
 </head>
 <body>
-FastAPI
+
+<link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+<script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+<df-messenger
+  project-id="rayira-genai"
+  agent-id="2bb9fa92-a3fe-4020-9449-433f69dfb963"
+  language-code="th"
+  max-query-length="-1">
+  <df-messenger-chat-bubble
+   chat-title="TOPS Online">
+  </df-messenger-chat-bubble>
+</df-messenger>
+<style>
+  df-messenger {
+    z-index: 999;
+    position: fixed;
+    --df-messenger-font-color: #000;
+    --df-messenger-font-family: Google Sans;
+    --df-messenger-chat-background: #f3f6fc;
+    --df-messenger-message-user-background: #DB4437;
+    --df-messenger-message-bot-background: #fff;
+    bottom: 16px;
+    right: 16px;
+  }
+</style>
+
 </body>
 </html>
